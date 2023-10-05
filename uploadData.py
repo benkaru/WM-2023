@@ -41,7 +41,7 @@ with open(csv_file_name, mode="w", newline="") as file:
         while True:
             # Read data from the Arduino
             data = ser.readline().decode().strip()
-            print(data)
+            print(f"Received data: {data}")
 
             # Split the data into key-value pairs
             try:
@@ -68,7 +68,6 @@ with open(csv_file_name, mode="w", newline="") as file:
                 else:
                     # Calculate the water height in cm as the distance from the sensor to the water box minus the distance from the sensor to the bottom of the water box
                     water_height = water_box_max_height - adjusted_value 
-                    print(water_height, water_max_volume, water_box_max_height)
                     entry["Water"] = round(water_height * water_max_volume / water_box_max_height, 3)
 
             if key == "Time":
