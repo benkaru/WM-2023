@@ -8,3 +8,5 @@ Gruppenmitglieder:
 - Carmen Luu (s0564264)
 
 Für weitere Informationen zum Projekt bitte einen Blick in die Dokumentation und Skripte werfen.
+
+Das Video `SensorExample.MOV` zeigt, wie die Bewässerungslogik auf Messwerte reagiert.
