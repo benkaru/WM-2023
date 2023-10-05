@@ -1,8 +1,8 @@
 # WM-2023
 
-##Projekt: HydroTower
+Projekt: HydroTower
 
-##Gruppenmitglieder:
+Gruppenmitglieder:
 - Ben Rump (s0563490)
 - Kaya Löher (s0564784)
 - Carmen Luu (s0564264)
